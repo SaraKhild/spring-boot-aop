@@ -78,9 +78,8 @@ spring.jpa.show-sql=true
 
  ```
  ## Let's Start :mechanical_arm:
-### • Query Results of Employee
 
-##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Mmethod is empty as this is just a Pointcut, the implementations are in the Before advices.The second Before that matche with create employee with 0 or many args, and args with employee type that match with advice. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
 
 ###### Code :computer:
 
@@ -99,8 +98,6 @@ spring.jpa.show-sql=true
 ---
 
 <br>
-
-### • Query Results of Employee
 
 ##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
 
