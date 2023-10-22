@@ -79,7 +79,7 @@ spring.jpa.show-sql=true
  ```
  ## Let's Start :mechanical_arm:
 
-##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices.The second Before that matche with create employee with 0 or many args, and args with employee type that match with advice. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. The second Before that matche with create employee with 0 or many args, and args with employee type that match with advice. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
 
 ###### Code :computer:
 
@@ -99,14 +99,15 @@ spring.jpa.show-sql=true
 
 <br>
 
-##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and when throwing exception.` ` 
 
 ###### Code :computer:
 
 <br>
 
-![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/ceb208a9-ff27-4245-b40a-f884ff15ddc1)
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/a3d4a7b2-18d7-4f65-a89a-dc4e49c16f2c)
 
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/ceb208a9-ff27-4245-b40a-f884ff15ddc1)
 
 <br>
 
@@ -116,14 +117,11 @@ spring.jpa.show-sql=true
 
 ![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/f9c6f29c-407d-406f-956a-88c399eef8e1)
 
-
 ---
 
 <br>
 
-### • Query Results of Employee
-
-##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and exited, and when throwing exception.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and exited.` 
 
 ###### Code :computer:
 
@@ -139,14 +137,11 @@ spring.jpa.show-sql=true
 
 <br>
 
-
 ![IMG_1711](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/39f57424-3faa-402b-8e09-ae20bec4e780)
-
 
 ---
 
 <br>
-
 
   
 ---
