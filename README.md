@@ -17,13 +17,13 @@
 
  ### 1-src folder
  
-   - Aspect folder
+   - Aspect
    - Exception
-   - Model folder
-   - Controller folder
-   - Model folder
-   - Service folder
-   - Repository folder
+   - Model
+   - Controller
+   - Model
+   - Service
+   - Repository 
    
 ### 2-Maven pom.xml
 <br> 
@@ -79,7 +79,7 @@ spring.jpa.show-sql=true
  ```
  ## Let's Start :mechanical_arm:
 
-##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. The second Before that matche with create employee with 0 or many args, and args with employee type that match with advice. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. The second Before that matche with create employee method with 0 or many args, employee type that match with advice args. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
 
 ###### Code :computer:
 
@@ -99,7 +99,7 @@ spring.jpa.show-sql=true
 
 <br>
 
-##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and when throwing exception.` ` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and exited.` 
 
 ###### Code :computer:
 
@@ -121,7 +121,7 @@ spring.jpa.show-sql=true
 
 <br>
 
-##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and exited.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and when throwing exception.` 
 
 ###### Code :computer:
 
