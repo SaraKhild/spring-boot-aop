@@ -78,7 +78,77 @@ spring.jpa.show-sql=true
 
  ```
  ## Let's Start :mechanical_arm:
+### • Query Results of Employee
 
+##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
+
+###### Code :computer:
+
+<br>
+
+![createaop](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/5932b9b1-1862-40a0-88a9-f5f27c0388a8)
+
+<br>
+
+###### Result :star_struck:
+
+<br>
+
+![ createresult](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/c0baa5e3-57f4-4a7d-add7-ee8d4e422a61)
+
+---
+
+<br>
+
+### • Query Results of Employee
+
+##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
+
+###### Code :computer:
+
+<br>
+
+![fetchaop](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/ceb208a9-ff27-4245-b40a-f884ff15ddc1)
+
+
+<br>
+
+###### Result :star_struck:
+
+<br>
+
+![fetchresult](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/f9c6f29c-407d-406f-956a-88c399eef8e1)
+
+
+---
+
+<br>
+
+### • Query Results of Employee
+
+##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
+
+###### Code :computer:
+
+<br>
+
+![throwaop](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/2fe6dba5-6fcb-4c5b-be66-33008cbc9b32)
+
+
+
+<br>
+
+###### Result :star_struck:
+
+<br>
+
+
+![IMG_1711](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/39f57424-3faa-402b-8e09-ae20bec4e780)
+
+
+---
+
+<br>
 
 
   
