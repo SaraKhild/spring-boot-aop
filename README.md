@@ -138,11 +138,6 @@ spring.jpa.show-sql=true
 <br>
 
 ![IMG_1711](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/39f57424-3faa-402b-8e09-ae20bec4e780)
-
----
-
-<br>
-
   
 ---
 <br>
