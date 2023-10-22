@@ -79,13 +79,13 @@ spring.jpa.show-sql=true
  ```
  ## Let's Start :mechanical_arm:
 
-##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Mmethod is empty as this is just a Pointcut, the implementations are in the Before advices.The second Before that matche with create employee with 0 or many args, and args with employee type that match with advice. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices.The second Before that matche with create employee with 0 or many args, and args with employee type that match with advice. The AfterReturning is executed after a join point completes normally, for example, if the method returns without throwing an exception.` 
 
 ###### Code :computer:
 
 <br>
 
-![createaop](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/5932b9b1-1862-40a0-88a9-f5f27c0388a8)
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/5932b9b1-1862-40a0-88a9-f5f27c0388a8)
 
 <br>
 
@@ -93,7 +93,7 @@ spring.jpa.show-sql=true
 
 <br>
 
-![ createresult](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/c0baa5e3-57f4-4a7d-add7-ee8d4e422a61)
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/c0baa5e3-57f4-4a7d-add7-ee8d4e422a61)
 
 ---
 
@@ -105,7 +105,7 @@ spring.jpa.show-sql=true
 
 <br>
 
-![fetchaop](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/ceb208a9-ff27-4245-b40a-f884ff15ddc1)
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/ceb208a9-ff27-4245-b40a-f884ff15ddc1)
 
 
 <br>
@@ -114,7 +114,7 @@ spring.jpa.show-sql=true
 
 <br>
 
-![fetchresult](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/f9c6f29c-407d-406f-956a-88c399eef8e1)
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/f9c6f29c-407d-406f-956a-88c399eef8e1)
 
 
 ---
@@ -123,15 +123,15 @@ spring.jpa.show-sql=true
 
 ### • Query Results of Employee
 
-##### :pencil2: `This query compares employee name that is sending with employees name which stored in database and then get employee information.` 
+##### :pencil2: `Pointcut that matches all repositories, services, and Web REST endpoints. Method is empty as this is just a Pointcut, the implementations are in the Before advices. Around that matches all methods service which logs when a method is entered and exited, and when throwing exception.` 
 
 ###### Code :computer:
 
 <br>
 
-![throwaop](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/2fe6dba5-6fcb-4c5b-be66-33008cbc9b32)
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/519a3c41-b03f-4cd6-b868-79acd31df43e)
 
-
+![](https://github.com/SaraKhild/spring-boot-aop/assets/67427643/2fe6dba5-6fcb-4c5b-be66-33008cbc9b32)
 
 <br>
 
