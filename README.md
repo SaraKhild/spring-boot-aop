@@ -21,7 +21,6 @@
  
    - Aspect
    - Exception
-   - Model
    - Controller
    - Model
    - Service
